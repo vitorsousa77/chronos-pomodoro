@@ -1,8 +1,29 @@
+import { Container } from './componets/Container';
+import { Heading } from './componets/Heading'
+import { Logo } from './componets/Logo';
+
+import './styles/theme.css';
+import './styles/global.css';
+
+//import { Container } from'./componets/Container.tsx'
+
 function App() {
     console.log('Ok, the app is running!');
     return (
         <div>
-            <h1>Welcome to the Pomodoro App</h1>
+            <Container>
+                <Logo />
+            </Container>
+            <Container>
+                <Heading> 
+                    MENU
+                </Heading>
+            </Container>
+            <Container>
+                <Heading> 
+                    FOOTER
+                </Heading>
+            </Container>
         </div>
     )
 }

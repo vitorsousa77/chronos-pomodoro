@@ -1,0 +1,9 @@
+.logo {
+    background-color: rgb(193, 23, 23);
+    color: rgb(255, 255, 255);
+}
+
+.logoLink {
+    text-decoration: none;
+    color: inherit;
+}
