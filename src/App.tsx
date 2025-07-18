@@ -1,6 +1,6 @@
 import { Container } from './componets/Container';
-import { Heading } from './componets/Heading'
 import { Logo } from './componets/Logo';
+import { Menu } from './componets/Menu';
 
 import './styles/theme.css';
 import './styles/global.css';
@@ -15,14 +15,7 @@ function App() {
                 <Logo />
             </Container>
             <Container>
-                <Heading> 
-                    MENU
-                </Heading>
-            </Container>
-            <Container>
-                <Heading> 
-                    FOOTER
-                </Heading>
+                <Menu />
             </Container>
         </div>
     )
