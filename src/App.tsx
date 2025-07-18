@@ -1,6 +1,7 @@
 import { Container } from './componets/Container';
 import { Logo } from './componets/Logo';
 import { Menu } from './componets/Menu';
+import { CountDown } from './componets/CountDown';
 
 import './styles/theme.css';
 import './styles/global.css';
@@ -16,6 +17,9 @@ function App() {
             </Container>
             <Container>
                 <Menu />
+            </Container>
+            <Container>
+                <CountDown />
             </Container>
         </div>
     )
